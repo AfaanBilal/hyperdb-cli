@@ -7,6 +7,31 @@ Author: **[Afaan Bilal](https://afaan.dev)**
 **HyperDB CLI** is a command line interface (CLI) for the HyperDB Server.
 
 ---
+## Run with Docker
+`$ docker run --rm -it afaanbilal/hyperdb-cli -a http://host.docker.internal:8765`
+
+````
+Connected to http://host.docker.internal:8765
+> ?
+[HyperDB Client]
+COMMANDS:
+HELP | ?            Print this help message
+PING                Ping server
+VERSION | VER       Get server version
+HAS [key]           Check if there is a value for [key]
+GET [key]           Get the value for [key]
+SET [key] [value]   Set the [value] for [key]
+DEL [key]           Delete the value for [key]
+EMPTY               Check if the store is empty
+ALL                 Get all stored data
+CLEAR               Delete all stored data from memory
+SAVE                Save stored data to disk
+RELOAD              Reload store from disk
+RESET               Delete all stored data from memory and disk
+QUIT | EXIT         Quit
+>
+````
+
 ## Build and Run
 `$ cargo run`
 
