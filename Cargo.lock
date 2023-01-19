@@ -327,9 +327,19 @@ dependencies = [
 
 [[package]]
 name = "hyperdb-cli"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap",
+ "hyperdb-rs",
+ "reqwest",
+]
+
+[[package]]
+name = "hyperdb-rs"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8d6f195297aedce8ec1a869ecb2b28a37c29496e5b604f960ae37c1c33f41179"
+dependencies = [
  "reqwest",
 ]
 

@@ -9,8 +9,6 @@
 use clap::Parser;
 use std::io::{self, Write};
 
-mod client;
-
 #[derive(Debug, Parser)]
 #[command(author, version, about, long_about = None)]
 struct Args {
@@ -21,7 +19,7 @@ struct Args {
 
 fn main() {
     let args = Args::parse();
-    let mut hc = client::HyperClient::new(args.address);
+    let mut hc = hyperdb_rs::HyperClient::new(args.address);
 
     loop {
         print!("> ");
