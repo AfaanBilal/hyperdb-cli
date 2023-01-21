@@ -3,11 +3,11 @@ HyperDB CLI
 
 Author: **[Afaan Bilal](https://afaan.dev)**
 
-## Introduction
+## Introduction <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" title="Bash" width="50px" style="float: right;" />
 **HyperDB CLI** is a command line interface (CLI) for the HyperDB Server.
 
 ---
-## Run with Docker
+## Run with Docker <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="50px" style="float: right;" />
 `$ docker run --rm -it afaanbilal/hyperdb-cli -a http://host.docker.internal:8765`
 
 ````
@@ -32,7 +32,7 @@ QUIT | EXIT         Quit
 >
 ````
 
-## Build and Run
+## Build and Run <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" title="Bash" width="50px" style="float: right;" />
 `$ cargo run`
 
 ````
